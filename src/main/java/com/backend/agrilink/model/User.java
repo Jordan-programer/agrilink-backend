@@ -16,6 +16,7 @@ public class User {
     private String nome;
     private String telefone;
     private String email;
+    private String senha;
     private String tipo;
     private String provincia;
     private LocalDate data_cadastro;
@@ -134,6 +135,21 @@ public class User {
      */
     public void setPlano(String plano) {
         this.plano = plano;
+    }
+
+
+    /**
+     * @return String return the senha
+     */
+    public String getSenha() {
+        return senha;
+    }
+
+    /**
+     * @param senha the senha to set
+     */
+    public void setSenha(String senha) {
+        this.senha = senha;
     }
 
 }
